@@ -86,11 +86,8 @@ if (viewProjectsBtn) {
 const downloadResumeBtn = document.getElementById('downloadResumeBtn');
 if (downloadResumeBtn) {
     downloadResumeBtn.addEventListener('click', () => {
-        // Create a placeholder alert - Replace this path with your actual resume PDF
-        alert('Resume download feature:\n\n1. Place your resume PDF in the assets folder\n2. Replace the path in the JavaScript\n3. Uncomment the window.location.href line below');
-        
-        // Uncomment this line and replace with your actual resume path:
-        // window.location.href = 'assets/resume/Mohanapriya_S_Resume.pdf';
+        // Download resume PDF
+        window.location.href = 'assets/img/resume.pdf';
     });
 }
 
